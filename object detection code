@@ -1,5 +1,14 @@
 Installations:
 
+TensorFlow Object detection
+# Download steps
+# 1. Download models from  https://github.com/tensorflow/models
+# 2. Download protoc-*-win64.zip from https://github.com/protocolbuffers/protobuf/releases
+# 3. Unzip 'models-master.zip' and move to folder models-master\models-master\research
+
+
+
+code:
 !pip install -U --pre tensorflow=="2.*"
 !pip install tf_slim
 
